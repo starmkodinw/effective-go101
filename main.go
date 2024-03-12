@@ -26,5 +26,7 @@ func main() {
 	// test.Pointer7()
 	// test.Pointer8()
 	// test.Pointer9()
-	test.Pointer10()
+	// test.Pointer10()
+
+	test.TestInterface()
 }
