@@ -19,5 +19,12 @@ func main() {
 
 	// test.Pointer()
 	// test.Pointer2()
-	test.Pointer3()
+	// test.Pointer3()
+	// test.Pointer4()
+	// test.Pointer5()
+	// test.Pointer6()
+	// test.Pointer7()
+	// test.Pointer8()
+	// test.Pointer9()
+	test.Pointer10()
 }

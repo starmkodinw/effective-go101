@@ -3,3 +3,5 @@
 - Dangling pointers คือตัวแปรพอยน์เตอร์ ที่ไม่ได้ชี้ไปยังออบเจ็กต์ ชี้ไปยังหน่วยความจำที่ว่างเปล่า => crash, memory leak
 - rune alias ของ int32 ใช้แทนค่า Unicode code point เก็บตัวอักษร สัญลักษณ์ หรือ emoji ทีละตัว => 'a' : U+0061
 - string เก็บชุดของ rune
+- Address ตำแหน่งใน memory, ตัวแปรทุกตัวจะมี address
+- Pointer เก็บ address ของข้อมูลอื่น => Dereferencing pointer เพื่อเข้าถึงค่า
