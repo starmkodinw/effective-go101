@@ -28,5 +28,9 @@ func main() {
 	// test.Pointer9()
 	// test.Pointer10()
 
-	test.TestInterface()
+	// test.TestInterface()
+
+	// test.Iota()
+
+	test.Any()
 }

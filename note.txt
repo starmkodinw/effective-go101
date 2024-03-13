@@ -8,3 +8,6 @@
 - channel = mechanism for concurrent to communicated by sending & receiving
 - Array = immutable => โดยทั่วไป ไม่ เกิด race condition
 - Slice = mutable => อาจ เกิด race condition
+- Underlying type คือ type พื้นฐานที่ใช้สร้าง type ใหม่ 
+    => int8 เป็น underlying type ของ byte
+    => int32 เป็น underlying type ของ rune
