@@ -20,6 +20,7 @@ type MyStruct struct {
 	Age  int32
 }
 
+// Method declaration ของ struct `MyStruct`
 // method sets: ของ MyStruct มี Method1, Method2, Method3, Method4
 // Method1 เป็น receiver pointer
 // Method2, Method3, Method4 เป็น receiver value

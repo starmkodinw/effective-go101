@@ -32,5 +32,7 @@ func main() {
 
 	// test.Iota()
 
-	test.Any()
+	// test.Any()
+
+	test.CompositeLiteral()
 }
