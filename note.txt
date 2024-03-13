@@ -6,3 +6,5 @@
 - Address ตำแหน่งใน memory, ตัวแปรทุกตัวจะมี address
 - Pointer เก็บ address ของข้อมูลอื่น => Dereferencing pointer เพื่อเข้าถึงค่า
 - channel = mechanism for concurrent to communicated by sending & receiving
+- Array = immutable => โดยทั่วไป ไม่ เกิด race condition
+- Slice = mutable => อาจ เกิด race condition
