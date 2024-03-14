@@ -36,5 +36,9 @@ func main() {
 
 	// test.CompositeLiteral()
 
-	test.MethodExpression()
+	// test.MethodExpression()
+
+	// test.IntegerOverflow()
+
+	test.AddressOperators()
 }
