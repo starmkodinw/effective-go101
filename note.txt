@@ -21,3 +21,5 @@
 - a[:] ดึงค่าทั้งหมด  // same as a[0 : len(a)]
 - Simple slice => a[low : high]
 - Full slice => a[low : high : max]
+- Type inference = compiler อนุมาน type ของตัวแปรได้โดยอัตโนมัติ => num := 7 //num: int
+- Type unification = compiler แปลง ให้เป็น type เดียวกัน เพื่อใช้ใน operation หรือ assignment => num := 1 + 2.5
