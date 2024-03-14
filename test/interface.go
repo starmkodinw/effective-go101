@@ -52,3 +52,21 @@ func TestInterface() {
 	i.Method1()
 	i.Method2()
 }
+
+type PersonThai struct {
+	Name string
+}
+
+func (p PersonThai) Hello(s string) {
+	fmt.Println("Hello : ", p.Name, s)
+}
+
+func MethodExpression() {
+	p := PersonThai{"John"}
+
+	// Method expressions ใช้เรียก method ของ struct โดยไม่ต้องระบุชื่อ struct
+	// เรียก method Hello() โดยใช้ method expression
+	hello := p.Hello
+
+	hello("World")
+}
