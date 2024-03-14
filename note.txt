@@ -16,3 +16,8 @@
 - Function literal = anonymous function
 - Selectors เครื่องมือ เลือก sub ข้อมูล => Ex. Range, Index, Key-value selector
 - Method expressions ใช้เรียก method ของ struct โดยไม่ต้องระบุชื่อ struct
+- a[2:]  // same as a[2 : len(a)]
+- a[:3]  // same as a[0 : 3] => a := []int{6, 14, 457, 888, 2} => a[:3] = [6 14 457]
+- a[:] ดึงค่าทั้งหมด  // same as a[0 : len(a)]
+- Simple slice => a[low : high]
+- Full slice => a[low : high : max]

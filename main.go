@@ -34,5 +34,7 @@ func main() {
 
 	// test.Any()
 
-	test.CompositeLiteral()
+	// test.CompositeLiteral()
+
+	test.MethodExpression()
 }

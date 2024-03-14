@@ -66,7 +66,9 @@ func MethodExpression() {
 
 	// Method expressions ใช้เรียก method ของ struct โดยไม่ต้องระบุชื่อ struct
 	// เรียก method Hello() โดยใช้ method expression
+	// สร้าง method value โดยใช้ method expression
 	hello := p.Hello
 
+	// เรียกใช้งาน method value
 	hello("World")
 }
