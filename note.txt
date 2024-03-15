@@ -28,3 +28,5 @@
 - << (shift left), >> (shift right) 
     x := 1; x <<= 1;     //x = 2
     x := 4; x >>= 2;     //x = 1
+- blank identifier => x, _ = f()
+- Go 1.22 each iteration has its own set of iteration variables
