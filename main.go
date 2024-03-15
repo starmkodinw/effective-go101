@@ -40,5 +40,7 @@ func main() {
 
 	// test.IntegerOverflow()
 
-	test.AddressOperators()
+	// test.AddressOperators()
+
+	test.Conversions()
 }

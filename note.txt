@@ -23,3 +23,5 @@
 - Full slice => a[low : high : max]
 - Type inference = compiler อนุมาน type ของตัวแปรได้โดยอัตโนมัติ => num := 7 //num: int
 - Type unification = compiler แปลง ให้เป็น type เดียวกัน เพื่อใช้ใน operation หรือ assignment => num := 1 + 2.5
+- Implicit conversions แปลงค่าโดยอัตโนมัติ โดย compiler
+- Explicit conversions แปลงค่าโดยใช้ ตัวดำเนินการ conversion
