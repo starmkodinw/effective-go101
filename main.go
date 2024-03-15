@@ -42,5 +42,7 @@ func main() {
 
 	// test.AddressOperators()
 
-	test.Conversions()
+	// test.Conversions()
+
+	test.OrderEvaluation()
 }
