@@ -25,3 +25,6 @@
 - Type unification = compiler แปลง ให้เป็น type เดียวกัน เพื่อใช้ใน operation หรือ assignment => num := 1 + 2.5
 - Implicit conversions แปลงค่าโดยอัตโนมัติ โดย compiler
 - Explicit conversions แปลงค่าโดยใช้ ตัวดำเนินการ conversion
+- << (shift left), >> (shift right) 
+    x := 1; x <<= 1;     //x = 2
+    x := 4; x >>= 2;     //x = 1

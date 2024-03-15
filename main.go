@@ -1,8 +1,6 @@
 package main
 
-import (
-	"test/test"
-)
+import "test/test"
 
 func main() {
 	// test.First()
@@ -44,5 +42,7 @@ func main() {
 
 	// test.Conversions()
 
-	test.OrderEvaluation()
+	// test.OrderEvaluation()
+
+	test.ArithmeticOperators()
 }
