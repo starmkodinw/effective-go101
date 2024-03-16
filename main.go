@@ -5,6 +5,7 @@ import (
 )
 
 func main() {
+
 	// test.First()
 
 	// test.Sec()
@@ -48,5 +49,7 @@ func main() {
 
 	// test.ArithmeticOperators()
 
-	test.For()
+	// test.For()
+
+	test.Defer()
 }
