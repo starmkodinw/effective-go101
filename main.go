@@ -51,5 +51,15 @@ func main() {
 
 	// test.For()
 
-	test.Defer()
+	// test.Defer()
+
+	// test.Clear()
+
+	// test.Len()
+
+	// test.MinMax()
+
+	// test.New()
+
+	test.Panic()
 }

@@ -30,3 +30,9 @@
     x := 4; x >>= 2;     //x = 1
 - blank identifier => x, _ = f()
 - Go 1.22 each iteration has its own set of iteration variables
+- len จำนวน element
+- cap จำนวนสูงสุดที่เก็บได้
+- e 
+    1e1 = 10 //1 * 10^1
+    50e-2 = 0.5 //50 * 10^(-2)
+- recover จัดการกับ panic, ควรใช้คู่กับ defer
