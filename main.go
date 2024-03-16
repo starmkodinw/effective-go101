@@ -61,5 +61,7 @@ func main() {
 
 	// test.New()
 
-	test.Panic()
+	// test.Panic()
+
+	test.PackageInitialization()
 }
