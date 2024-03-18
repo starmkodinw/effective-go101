@@ -1,3 +1,4 @@
+- Mutex = mutual exclusion => mutual = ซึ่งกันและกัน, exclusion = ละเว้น
 - RLock() กับ RUnlock() for read only => คนที่ขอ RLock() เหมือนกันทำงานพร้อมกันได้
 - Memory leak ไม่สามารถปล่อยหน่วยความจำที่ไม่ใช้งานแล้วได้ => mem เพิ่มขึ้นเรื่อยๆ
 - Dangling pointers คือตัวแปรพอยน์เตอร์ ที่ไม่ได้ชี้ไปยังออบเจ็กต์ ชี้ไปยังหน่วยความจำที่ว่างเปล่า => crash, memory leak
