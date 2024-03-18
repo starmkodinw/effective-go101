@@ -12,10 +12,15 @@
     => int8 เป็น underlying type ของ byte
     => int32 เป็น underlying type ของ rune
 - variadic parameter => func printArgs(args ...string) {}
-- Composite literals เป็น syntax สำหรับการสร้าง struct, array, slice, map และอื่นๆ โดยไม่ต้องระบุ type
+- Composite literal เป็น syntax สำหรับการสร้าง struct, array, slice, map และอื่นๆ โดยไม่ต้องระบุ type
+    person := struct { name string}{ name: "John Doe" } // struct
+    fruits := []string{"apple", "banana", "orange"} // slice
+    ages := map[string]int{"John Doe": 30}  // map
 - Function literal = anonymous function
 - Selectors เครื่องมือ เลือก sub ข้อมูล => Ex. Range, Index, Key-value selector
 - Method expressions ใช้เรียก method ของ struct โดยไม่ต้องระบุชื่อ struct
+- Go does not have classes. However, you can define methods on types. // func (p Person) HelloWorld() string { return "HelloWorld!" }
+- Method is just a function with a receiver argument.
 - a[2:]  // same as a[2 : len(a)]
 - a[:3]  // same as a[0 : 3] => a := []int{6, 14, 457, 888, 2} => a[:3] = [6 14 457]
 - a[:] ดึงค่าทั้งหมด  // same as a[0 : len(a)]
@@ -36,3 +41,11 @@
     1e1 = 10 //1 * 10^1
     50e-2 = 0.5 //50 * 10^(-2)
 - recover จัดการกับ panic, ควรใช้คู่กับ defer
+- Type assertions แปลง จาก type หนึ่งไปยังอีก type หนึ่ง, ใช้ ok เพื่อตรวจสอบว่าการแปลงประสบความสำเร็จหรือไม่
+    var i interface{} = "hello"
+    s, ok := i.(string) //hello true
+    f, ok := i.(float64) //0 false
+	f = i.(float64) // panic: interface conversion
+- goroutine is a lightweight thread managed by the Go runtime.
+    Thread คือ หน่วยการทำงานย่อยภายใน Process, woker หลายคนทำงานพร้อมกันในออฟฟิศเดียว, ช่วยให้การทำงานเสร็จเร็วขึ้น โดยเฉพาะงานที่สามารถแบ่งย่อยได้
+    Go runtime จัดการทรัพยากรระบบ, ควบคุมการทำงานของโปรแกรม => manage memory, scheduling ของ Goroutines, GC, I/O, runtime errors

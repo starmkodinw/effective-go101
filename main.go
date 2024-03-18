@@ -63,5 +63,7 @@ func main() {
 
 	// test.Panic()
 
-	test.PackageInitialization()
+	// test.PackageInitialization()
+
+	test.GenericsComparable()
 }
