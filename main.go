@@ -53,7 +53,7 @@ func main() {
 
 	// test.Defer()
 
-	test.Clear()
+	// test.Clear()
 
 	// test.Len()
 
@@ -66,4 +66,6 @@ func main() {
 	// test.PackageInitialization()
 
 	// test.GenericsComparable()
+
+	test.TestGithub()
 }
