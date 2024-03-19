@@ -67,5 +67,7 @@ func main() {
 
 	// test.GenericsComparable()
 
-	test.TestGithub()
+	// test.TestGithub()
+
+	test.Printing()
 }
